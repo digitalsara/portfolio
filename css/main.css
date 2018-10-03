@@ -50,3 +50,10 @@ body {
   margin-bottom: 3em;
   padding: 0 1em;
 }
+
+::selection {
+  background: #fac9b8;
+}
+::-moz-selection {
+  background: #fac9b8;
+}

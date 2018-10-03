@@ -39,6 +39,10 @@ body {
   display: inline;
 }
 
+nav ul {
+  padding: 0;
+}
+
 .nav a {
   text-decoration: none;
   padding: 0 10px;

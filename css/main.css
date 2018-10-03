@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+.thumbnails img {
+  width: 100%;
+}
+
 .wordmark {
   width: 100px;
 }
@@ -50,8 +54,8 @@ nav ul {
 }
 
 .header {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   padding: 0 1em;
 }
 

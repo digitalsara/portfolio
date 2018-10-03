@@ -1,0 +1,52 @@
+html {
+  font-family: Merriweather, serif;
+  background-color: #fff;
+  color: #2f243a;
+}
+
+h1, h2, h3, h4, .karla {
+  font-family: Karla, sans-serif;
+}
+
+.section-bio img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.wordmark {
+  width: 100px;
+}
+
+.wordmark-wrapper {
+  padding-bottom: 0.5em;
+}
+
+.nav {
+  background-color: #e5e5e5;
+  box-shadow: 0 2px 40px #e5e5e5;
+  padding: 2em;
+  text-align: center;
+}
+
+.nav img {
+  padding-bottom: 1em;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #2f243a;
+}
+
+.header {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 0 1em;
+}

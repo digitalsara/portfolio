@@ -74,6 +74,15 @@ hr {
   width: 50px;
 }
 
+.btn-contact {
+  color: #2f243a;
+  text-decoration: none;
+  background-color:rgba(255, 227, 228, 0.5);
+  border: 3px solid #e7cfcd;
+  border-radius: 10px;
+  padding: .5em;
+}
+
 ::selection {
   background: #fac9b8;
 }

@@ -69,6 +69,11 @@ nav ul {
   margin-right: auto;
 }
 
+hr {
+  border: 1.5px solid #9f9aa4;
+  width: 50px;
+}
+
 ::selection {
   background: #fac9b8;
 }

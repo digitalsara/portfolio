@@ -1,0 +1,26 @@
+.hero-homegrown-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../images/hero-homegrown.jpg");
+  height: 20em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-homegrown {
+  color: #fff;
+  padding: 5.5em 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hero-homegrown-wrap {
+    height: 30em;
+  }
+
+  .hero-homegrown {
+    color: #fff;
+    padding: 10em 0;
+  }
+
+}

@@ -30,8 +30,7 @@ body {
 }
 
 .nav {
-  background-color: #e5e5e5;
-  box-shadow: 0 2px 40px #e5e5e5;
+  /* background-color: #ffe4e3; */
   padding: 2em;
   text-align: center;
 }
@@ -60,6 +59,11 @@ nav ul {
   padding: 0 1em;
 }
 
+.header-wrapper {
+  /* background-color: #ffe4e3;
+  margin-bottom: 4em; */
+}
+
 .companies {
   background-color: #e5e5e5;
 }
@@ -69,6 +73,10 @@ nav ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.thumbnails img {
+  border: 2px solid #fff;
 }
 
 hr {

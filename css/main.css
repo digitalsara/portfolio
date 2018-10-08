@@ -22,6 +22,7 @@ body {
 .wordmark {
   width: 100px;
   margin-top: -.5em;
+  padding-top: 1em;
 }
 
 .wordmark-wrapper {
@@ -95,6 +96,10 @@ footer {
   margin-left: 1em;
 }
 
+.companies {
+  padding-bottom: 3em;
+}
+
 ::selection {
   background: #fac9b8;
 }
@@ -107,6 +112,11 @@ footer {
   .wordmark-wrapper {
     text-align: left;
     position: absolute;
+    top: 3.5%;
+  }
+
+  .wordmark {
+    padding-top: 0;
   }
 
   .nav {
@@ -120,8 +130,16 @@ footer {
     margin-bottom: 10em;
   }
 
-  .btn-contact {
-    margin-left: 0;
+  .companies {
+    padding-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wordmark-wrapper {
+    top: 4%;
   }
 
 }

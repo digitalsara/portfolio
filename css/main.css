@@ -21,6 +21,7 @@ body {
 
 .wordmark {
   width: 100px;
+  margin-top: -.5em;
 }
 
 .wordmark-wrapper {
@@ -74,6 +75,16 @@ hr {
   width: 50px;
 }
 
+footer {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.footer-socials img {
+  width: 4em;
+  padding: 0 .5em;
+}
+
 .btn-contact {
   color: #2f243a;
   text-decoration: none;
@@ -81,6 +92,7 @@ hr {
   border: 3px solid #e7cfcd;
   border-radius: 10px;
   padding: .5em;
+  margin-left: 1em;
 }
 
 ::selection {
@@ -88,4 +100,28 @@ hr {
 }
 ::-moz-selection {
   background: #fac9b8;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .wordmark-wrapper {
+    text-align: left;
+    position: absolute;
+  }
+
+  .nav {
+    padding-bottom: 3em;
+    padding-top: 3em;
+    text-align: right;
+  }
+
+  .header {
+    margin-top: 10em;
+    margin-bottom: 10em;
+  }
+
+  .btn-contact {
+    margin-left: 0;
+  }
+
 }

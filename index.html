@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Sara Habel | Portfolio</title>
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Merriweather:400,400i" rel="stylesheet">
-</head>
-<div class="nav push-0">
-  <div class="wordmark-wrapper">
-    <a href="index.html"><img class="wordmark" src="images/wordmark-dark.png" alt="Wordmark"></a>
-  </div>
-  <nav>
-    <ul class="push-0 karla mega">
-      <a href="index.html"><li class="gutter-1-2">Portfolio</li></a>
-      <a href="#contact"><li class="gutter-1-2">Contact</li></a>
-    </ul>
-  </nav>
-</div>
+---
+layout: default
+---
+
   <body>
     <div class="grid header-wrapper text-center">
       <div class="unit xs-1 header">
@@ -34,10 +14,10 @@
       <h3 class="not-bold push-1-2">User Interface & Experience</h3>
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-          <a href="ui-homegrown.html"><img src="images/gallery-homegrown-thumb.jpg" alt=""></a>
+          <a href="{{site.baseurl}}/ui-homegrown"><img src="{{site.baseurl}}/images/gallery-homegrown-thumb.jpg" alt=""></a>
         </div>
         <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-          <a href=""><img src="images/gallery-aralc-thumb.jpg" alt=""></a>
+          <a href=""><img src="{{site.baseurl}}/images/gallery-aralc-thumb.jpg" alt=""></a>
         </div>
         <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
           <a href=""><img src="https://via.placeholder.com/350x350" alt=""></a>
@@ -49,7 +29,7 @@
           <a href=""><img src="images/gallery-luxe-thumb.jpg" alt=""></a>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <a href=""><img src="images/gallery-emiliecoyle-thumb.jpg" alt=""></a>
+          <a href=""><img src="{{site.baseurl}}/images/gallery-emiliecoyle-thumb.jpg" alt=""></a>
         </div>
       </div>
     </section>
@@ -83,28 +63,14 @@
     <section id="companies" class="companies pad-b-1-2 pad-t-1-2">
       <div class="grid grid-middle max-length">
         <div class="unit xs-1 s-1 m-1-3">
-          <img src="images/companies-emilie-coyle-wordmark.svg" alt="">
+          <img src="{{site.baseurl}}/images/companies-emilie-coyle-wordmark.svg" alt="">
         </div>
         <div class="unit xs-1 s-1 m-1-3">
-          <img src="images/companies-refugee613-wordmark.svg" alt="">
+          <img src="{{site.baseurl}}/images/companies-refugee613-wordmark.svg" alt="">
         </div>
         <div class="unit xs-1 s-1 m-1-3">
-          <img src="images/companies-oss-logo.svg" alt="">
+          <img src="{{site.baseurl}}/images/companies-oss-logo.svg" alt="">
         </div>
       </div>
     </section>
   </body>
-  <footer>
-    <div class="grid grid-top gutter pad-t-2 pad-b-2 wrapper">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 footer-socials text-center pad-bottom">
-        <a href="https://twitter.com/sarahabelart"><img src="images/icon-twitter.svg" alt="twitter icon"></a>
-        <a href="https://www.instagram.com/sarahabel.art/"><img src="images/icon-instagram.svg" alt="instagram icon"></a>
-        <a href="https://dribbble.com/sarahabelart"><img src="images/icon-dribbble.svg" alt="dribbble icon"></a>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <h4 class="push-0 giga">Who am I?</h4>
-        <p class="micro push-0">My name is Sara, I'm a graphic designer with a background in multimedia development. I am a self-driven, fully bilingual (le Français est ma langue maternelle!) individual who strives to make other people happy. My expertise is in branding, user interface and experience design, typesetting, motion graphics and front-end web development.</p>
-      </div>
-    </div>
-  </footer>
-</html>

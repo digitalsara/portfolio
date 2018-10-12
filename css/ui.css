@@ -1,10 +1,29 @@
-.hero-homegrown-wrap {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-homegrown.jpg");
+.hero-wrap {
   height: 20em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.hero-homegrown-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-homegrown.jpg");
+}
+
+.hero-aral-c-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-homegrown.jpg");
+}
+
+.hero-vegan-info-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-homegrown.jpg");
+}
+
+.hero-luxe-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-homegrown.jpg");
+}
+
+.hero-election-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-homegrown.jpg");
 }
 
 .hero-homegrown {

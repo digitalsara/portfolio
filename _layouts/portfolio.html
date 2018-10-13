@@ -5,14 +5,14 @@ layout: default
 <head>
   <link href="{{site.baseurl}}/css/ui.css" rel="stylesheet">
 </head>
-<div class="grid hero-wrap {{page.hero-wrapClass}} gutter">
+<header class="grid hero-wrap {{page.hero-wrapClass}} gutter" role="banner">
   <div class="unit xs-1 gutter max-length hero-homegrown">
-    <h1 class="tenakilo push-0">HomeGrown App</h1>
-    <h2 class="yotta push">UI/UX</h2>
-    <h3 class="not-bold mega">HomeGrown is a chore assignment app,  specially curated for children.</h3>
+    <h1 class="tenakilo push-0">{{page.h1-content}}</h1>
+    <h2 class="yotta push">{{page.h2-content}}</h2>
+    <h3 class="not-bold mega">{{page.h3-content}}</h3>
     <p></p>
   </div>
-</div>
+</header>
 <section>
   {{content}}
 </section>

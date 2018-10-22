@@ -30,7 +30,6 @@ body {
 }
 
 .nav {
-  /* background-color: #ffe4e3; */
   padding: 2em;
   text-align: center;
 }
@@ -60,8 +59,11 @@ nav ul {
 }
 
 .header-wrapper {
-  /* background-color: #ffe4e3;
-  margin-bottom: 4em; */
+  /* background-image: url("../images/banner-messy-desk.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom; */
+  background-color: #ffe4e3;
+  margin: 0 1.5em 2em 1.5em;
 }
 
 .companies {

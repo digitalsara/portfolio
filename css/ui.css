@@ -44,6 +44,15 @@ dt {
   font-family: karla, sans-sans-serif;
 }
 
+dd {
+  font-size: .8rem;
+}
+
+.analysis-img {
+  width: 6em;
+  padding-bottom: 1em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .hero-homegrown-wrap {

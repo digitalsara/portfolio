@@ -130,6 +130,11 @@ footer {
   transition: 0.2s;
 }
 
+.item-titles {
+  padding-left: 2px;
+  margin-bottom: .25em;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li:hover {

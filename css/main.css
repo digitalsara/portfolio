@@ -118,6 +118,18 @@ footer {
   background: #fac9b8;
 }
 
+.thumbnails img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.thumbnails img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transition-timing-function: ease;
+  transition: 0.2s;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li:hover {

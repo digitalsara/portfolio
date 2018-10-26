@@ -59,10 +59,11 @@ nav ul {
 }
 
 .header-wrapper {
-  /* background-image: url("../images/banner-messy-desk.jpg");
+  background: linear-gradient(-24deg,rgba(255,228,227,0.8),rgba(239,118,122,0.9)),url("../images/self-portrait-desk.jpg");
   background-repeat: no-repeat;
-  background-position: bottom; */
-  background-color: #ffe4e3;
+  color: #fff;
+  background-position: bottom;
+  background-size: cover;
   margin: 0 1.5em 2em 1.5em;
 }
 
@@ -117,6 +118,17 @@ footer {
   background: #fac9b8;
 }
 
+@media only screen and (min-width: 25em) {
+
+  nav li:hover {
+    border-bottom: 4px solid #9f9aa4;
+    padding-bottom: .25em;
+    transition-timing-function: ease;
+    transition: 0.2s;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .wordmark-wrapper {
@@ -150,6 +162,18 @@ footer {
 
   .wordmark-wrapper {
     top: 4%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .header {
+    padding: 4em 0;
+  }
+
+  .header-wrapper {
+    background-position: center;
   }
 
 }

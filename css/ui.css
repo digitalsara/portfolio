@@ -39,18 +39,13 @@
   color: #a9a9a9;
 }
 
-dt {
-  font-weight: bold;
-  font-family: karla, sans-sans-serif;
+.col-box {
+  width: 4em;
+  height: 6em;\
 }
 
-dd {
-  font-size: .8rem;
-}
-
-.analysis-img {
-  width: 6em;
-  padding-bottom: 1em;
+.col-mustard {
+  background-color: #fbae1;
 }
 
 @media only screen and (min-width: 38em) {

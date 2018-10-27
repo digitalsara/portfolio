@@ -59,7 +59,7 @@ nav ul {
 }
 
 .header-wrapper {
-  background: linear-gradient(-24deg,rgba(255,228,227,0.8),rgba(239,118,122,0.9)),url("../images/self-portrait-desk.jpg");
+  background: linear-gradient(-24deg,rgba(255,228,227,0.9),rgba(239,118,122,0.7),rgba(47,36,58,1)),url("../images/self-portrait-desk.jpg");
   background-repeat: no-repeat;
   color: #fff;
   background-position: bottom;

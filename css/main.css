@@ -100,11 +100,18 @@ footer {
 .btn-contact {
   color: #2f243a;
   text-decoration: none;
-  background-color:rgba(255, 227, 228, 0.5);
+  background: linear-gradient(-24deg,rgba(255,228,227,1),rgba(255, 227, 228, 0.5));
   border: 3px solid #e7cfcd;
   border-radius: 10px;
   padding: .5em;
   margin-left: 1em;
+  transition: background-color 0.2s ease-out;
+}
+
+.btn-contact:hover {
+  background-color: #e7cfcd;
+  transition-timing-function: ease;
+  transition: 0.2s;
 }
 
 .companies {

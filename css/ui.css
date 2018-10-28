@@ -48,7 +48,8 @@
   background-color: #fbae1;
 }
 
-#homegrown img {
+#homegrown img,
+.box-shadow {
   box-shadow: 0 0 8px #c6c6c6;
 }
 

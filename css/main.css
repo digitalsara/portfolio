@@ -155,15 +155,6 @@ footer {
   }
 }
 
-/* @keyframes wave {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(10deg);
-  }
-} */
-
 .thumbnails img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);

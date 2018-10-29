@@ -125,6 +125,45 @@ footer {
   background: #fac9b8;
 }
 
+.ec-wave {
+  position: absolute;
+  animation-name: wave;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(20deg);
+  }
+
+  50% {
+    transform: rotate(40deg);
+  }
+
+  75% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+/* @keyframes wave {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+} */
+
 .thumbnails img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);

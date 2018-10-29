@@ -74,6 +74,13 @@
   max-width: 380px;
 }
 
+.img-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 .pad-left-mobile {
   padding-left: 1em;
 }

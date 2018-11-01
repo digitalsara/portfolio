@@ -3,6 +3,25 @@ html {
   color: #2f243a;
 }
 
+.nav-btn-bg {
+  background-color: #e5e5e5;
+}
+
+.nav-btn-wrapper {
+  margin: 0 auto;
+}
+
+.nav-btn {
+  padding: 2em;
+  font-family: karla, sans-sans-serif;
+}
+
+.nav-btn a {
+  color: #3d3d3d;
+  text-decoration: none;
+  margin: 0 2em;
+}
+
 h1, h2, h3, h4, .karla {
   font-family: Karla, sans-serif;
 }

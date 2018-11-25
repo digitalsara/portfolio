@@ -236,4 +236,8 @@ footer {
     background-position: center;
   }
 
+  p {
+    line-height: 1.8rem!important;
+  }
+
 }

@@ -136,6 +136,13 @@ footer {
   padding-bottom: 3em;
 }
 
+.video {
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
 ::selection {
   background: #fac9b8;
 }

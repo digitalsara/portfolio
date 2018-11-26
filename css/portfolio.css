@@ -81,6 +81,20 @@
   width: 75%;
 }
 
+.img-50 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-25 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
 .pad-left-mobile {
   padding-left: 1em;
 }

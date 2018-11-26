@@ -143,6 +143,15 @@ footer {
   cursor: not-allowed;
 }
 
+.footer-email {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer p {
+  line-height: 1.4!important;
+}
+
 .ec-wave {
   position: absolute;
   animation-name: wave;
@@ -181,8 +190,8 @@ footer {
 .thumbnails img:hover {
   -webkit-filter: none;
   filter: none;
-  transition-timing-function: ease;
-  transition: 0.2s;
+  -webkit-transition-timing-function: ease;
+  -webkit-transition: 0.2s;
 }
 
 .item-titles {

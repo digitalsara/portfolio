@@ -3,6 +3,10 @@ html {
   color: #2f243a;
 }
 
+a:focus {
+  outline: 3px solid #000;
+}
+
 .nav-btn-bg {
   background-color: #e5e5e5;
 }

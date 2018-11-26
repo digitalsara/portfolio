@@ -26,6 +26,11 @@ h1, h2, h3, h4, .karla {
   font-family: Karla, sans-serif;
 }
 
+h1 {
+  line-height: 2rem!important;
+  padding-bottom: .25em;
+}
+
 .section-bio img {
   width: 100%;
 }
@@ -211,6 +216,10 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
+
+  h1 {
+    line-height: 3.2rem!important;
+  }
 
   nav {
     text-align: right;

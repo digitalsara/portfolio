@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<header class="grid hero-wrap {{page.hero-wrapClass}} gutter" role="banner">
+<header role="banner" class="grid hero-wrap {{page.hero-wrapClass}} gutter" role="banner">
   <div class="unit xs-1 gutter max-length hero-homegrown">
     <h2 class="yotta push-0 not-bold">{{page.h2-content}}</h2>
     <h1 class="tenamega push-1-2">{{page.h1-content}}</h1>
@@ -9,7 +9,8 @@ layout: default
     <p></p>
   </div>
 </header>
-<section>
+<section id="description" tabindex="0">
+
   {{content}}
 </section>
 
@@ -18,13 +19,13 @@ layout: default
     <ul class="list-group-inline nav-btn push-0 mega">
 
       {% if page.previous %}
-      <li><a href="{{site.baseurl}}/{{page.previous}}">Previous</a></li>
+      <li><a aria-label="View previous portfolio piece" href="{{site.baseurl}}/{{page.previous}}">Previous</a></li>
       {% else %}
       <li class="next-prev-disabled">Previous</li>
       {% endif %}
 
       {% if page.next %}
-        <li><a href="{{site.baseurl}}/{{page.next}}">Next</a></li>
+        <li><a aria-label="View next portfolio piece" href="{{site.baseurl}}/{{page.next}}">Next</a></li>
       {% else %}
         <li class="next-prev-disabled">Next</li>
       {% endif %}

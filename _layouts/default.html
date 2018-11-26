@@ -10,13 +10,21 @@
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Merriweather:400,400i" rel="stylesheet">
   <link href="favicon.ico" rel="shortcut icon">
 </head>
+
+<ul class="skip-links">
+  <li><a href="#nav">Jump to navigation</a></li>
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#portfolio">Jump to portfolio</a></li>
+  <li><a href="#testimonials">Jump to testimonials</a></li>
+</ul>
+
   <header class="max-90">
     <div class="nav push-0 grid grid-middle gutter-1-2">
       <div class="unit wordmark-wrapper unit-xs-1 s-1 m-1-2">
         <a href="{{site.baseurl}}/"><img class="wordmark" src="{{site.baseurl}}/images/wordmark-dark.png" alt="Wordmark"></a>
       </div>
       <div class="unit nav-wrapper unit-xs-1 s-1 m-1-2">
-        <nav>
+        <nav role="navigation" id="nav" tabindex="0">
           <ul class="push-0 karla mega">
             <a href="{{site.baseurl}}/"><li class="gutter-1-2">Portfolio</li></a>
             <a href="mailto:hello@sarahabel.art"><li class="gutter-1-2">Contact</li></a>
@@ -25,10 +33,10 @@
       </div>
     </div>
   </header>
-  <main itemref="data-author" itemscope itemtype="https://schema.org/WebSite">
+  <main role="main" id="main" tabindex="0" itemref="data-author" itemscope itemtype="https://schema.org/WebSite">
   {{content}}
 </main>
-  <footer id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <footer  role="contentinfo" tabindex="0" id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="grid grid-top gutter pad-t-2 pad-b-2 wrapper">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 footer-socials text-center pad-bottom">
         <div class="unit xs-1">

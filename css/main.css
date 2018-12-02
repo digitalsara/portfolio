@@ -20,7 +20,8 @@ a:focus {
   font-family: karla, sans-sans-serif;
 }
 
-.nav-btn a {
+.nav-btn a,
+.next-prev-disabled {
   color: #3d3d3d;
   text-decoration: none;
   margin-right: 2em;

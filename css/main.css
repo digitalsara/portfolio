@@ -95,7 +95,7 @@ nav ul {
 }
 
 .companies img {
-  width: 180px;
+  /* width: 180px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -151,7 +151,37 @@ footer {
 }
 
 .companies {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+  padding: 1em 2em;
+}
+
+.oss {
+  text-align: center;
+}
+
+.companies-wrapper {
+  width: 50%;
+  text-align: center;
+}
+
+.companies-wrapper img {
+  width: 70%;
+  display: inline-block;
+  padding: 1em;
+}
+
+.r613 img {
+  width: 100%;
+}
+
+.oss {
+  width: 100%;
+  padding: 0 3em;
+  display: inline-block;
+}
+
+.senate img {
+  width: 80%;
 }
 
 .video {
@@ -271,7 +301,49 @@ footer p {
   }
 
   .companies {
-    padding-bottom: 0;
+    margin-top: 4em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  #about-me {
+    margin-top: 6em;
+  }
+
+  .companies-wrapper {
+    width: 20%;
+    text-align: center;
+  }
+
+  .companies-wrapper img {
+    width: 96%;
+    display: inline-block;
+  }
+
+  .r613 img,
+  .oss img {
+    width: 110%;
+  }
+
+  .r613 img {
+    padding-top: 1em;
+    padding-left: .5em;
+  }
+
+  .oss img {
+    margin-left: .5em;
+    padding-top: .5em;
+  }
+
+  .oss {
+    padding: 0;
+    display: inline;
+  }
+
+  .senate img,
+  .coyle img {
+    width: 98%;
+    padding-top: .5em;
   }
 
 }
@@ -288,6 +360,23 @@ footer p {
 
   p {
     line-height: 1.8rem!important;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  #portfolio {
+    margin-top: 6em;
+  }
+
+  .wordmark {
+    width: 130px;
+    padding-top: .5em;
+  }
+
+  .nav {
+    margin: 2.5em 0;
   }
 
 }

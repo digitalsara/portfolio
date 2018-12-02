@@ -120,18 +120,31 @@ footer {
   padding: 0 .5em;
 }
 
-.btn-contact {
-  color: #2f243a;
+.btn-contact a,
+.btn-home a {
   text-decoration: none;
+  color: #2f243a;
+}
+
+.btn-contact,
+.btn-home a {
   background: linear-gradient(-24deg,rgba(255,228,227,1),rgba(255, 227, 228, 0.5));
   border: 3px solid #e7cfcd;
   border-radius: 10px;
   padding: .5em;
-  margin-left: 1em;
   transition: background-color 0.2s ease-out;
 }
 
-.btn-contact:hover {
+.btn-contact {
+  margin-left: 1em;
+}
+
+.btn-home a {
+  padding: 0.5em 1em;
+}
+
+.btn-contact:hover,
+.btn-home a:hover {
   background-color: #e7cfcd;
   transition-timing-function: ease;
   transition: 0.2s;
@@ -169,6 +182,16 @@ footer {
 
 footer p {
   line-height: 1.4!important;
+}
+
+.island-icon-wrapper {
+  text-align: center;
+}
+
+.ec-desert-island {
+  font-size: 125px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .ec-wave {

@@ -7,6 +7,57 @@ a:focus {
   outline: 3px solid #000;
 }
 
+.btn-home a {
+  background-color: rgba(47,36,58,.3);
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: .5em 1em;
+  color: #fff;
+  text-decoration: none;
+  transition: font-size 0.6s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.btn-home a:hover {
+  background-color: rgba(47,36,58,.6);
+  font-size: 105%;
+  transition-timing-function: ease;
+  transition: 0.2s;
+}
+
+.error-page-wrapper {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+.error-page {
+  background: linear-gradient(-24deg,rgba(255,228,227,0.9),rgba(239,118,122,0.7),rgba(47,36,58,1)),url("../images/error-island.jpg");
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.error-content {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.error-content h1 {
+  font-size: 450%;
+}
+
+.wordmark-white {
+  width: 30%;
+  margin-bottom: 4em;
+}
+
 .nav-btn-bg {
   background-color: #e5e5e5;
 }
@@ -120,14 +171,12 @@ footer {
   padding: 0 .5em;
 }
 
-.btn-contact,
-.btn-home a {
+.btn-contact {
   text-decoration: none;
   color: #2f243a;
 }
 
-.btn-contact,
-.btn-home a {
+.btn-contact {
   background: linear-gradient(-24deg,rgba(255,228,227,1),rgba(255, 227, 228, 0.5));
   border: 3px solid #e7cfcd;
   border-radius: 10px;
@@ -139,12 +188,7 @@ footer {
   margin-left: 1em;
 }
 
-.btn-home a {
-  padding: 0.5em 1em;
-}
-
-.btn-contact:hover,
-.btn-home a:hover {
+.btn-contact:hover {
   background-color: #e7cfcd;
   transition-timing-function: ease;
   transition: 0.2s;
@@ -219,9 +263,7 @@ footer p {
 }
 
 .ec-desert-island {
-  font-size: 125px;
-  display: inline-block;
-  margin: 0 auto;
+  font-size: 20px;
 }
 
 .ec-wave {
@@ -278,6 +320,15 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
+
+  .wordmark-white {
+    width: 13%;
+    margin-bottom: 4em;
+  }
+
+  .error-content h1 {
+    font-size: 750%;
+  }
 
   h1 {
     line-height: 3.2rem!important;

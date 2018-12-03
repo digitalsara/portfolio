@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Merriweather:400,400i" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon">
+</head>
+<body>
+  <main role="main" id="main" tabindex="0" itemref="data-author" itemscope itemtype="https://schema.org/WebSite">
+  {{content}}
+</main>
+</body>
+</html>

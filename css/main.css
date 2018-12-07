@@ -7,6 +7,31 @@ a:focus {
   outline: 3px solid #000;
 }
 
+.btn-banner {
+  display: block;
+  background-color: rgba(47,36,58,.3);
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: .5em 1em;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1em;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+}
+
+.btn-banner:hover {
+  background-color: rgba(47,36,58,.6);
+  transition-timing-function: ease;
+  -webkit-transition-timing-function: ease;
+  -webkit-transition-timing-function: ease;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
 .btn-home a {
   background-color: rgba(47,36,58,.3);
   border: 3px solid #fff;
@@ -138,7 +163,7 @@ nav ul {
   color: #fff;
   background-position: bottom;
   background-size: cover;
-  margin: 0 1.5em 2em 1.5em;
+  margin: 0 1.5em;
 }
 
 .companies {
@@ -146,7 +171,6 @@ nav ul {
 }
 
 .companies img {
-  /* width: 180px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -434,6 +458,11 @@ footer p {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .btn-banner {
+    display: inline;
+    margin: 0 1em;
+  }
 
   .header {
     padding: 4em 0;

@@ -489,6 +489,10 @@ footer p {
     padding-top: .5em;
   }
 
+}
+
+@media only screen and (min-width: 2500px) {
+
   .nav {
     margin: 2.5em 0;
   }

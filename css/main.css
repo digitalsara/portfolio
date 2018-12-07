@@ -308,6 +308,22 @@ footer p {
   margin-bottom: .25em;
 }
 
+#proficiencies {
+  margin: 2em 0;
+}
+
+.proficiencies-wrapper {
+  max-width: 608px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.proficiencies-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 12%;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li:hover {
@@ -320,6 +336,10 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
+
+  #proficiencies {
+    margin: 5em 0;
+  }
 
   .wordmark-white {
     width: 13%;

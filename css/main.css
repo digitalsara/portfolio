@@ -351,6 +351,20 @@ footer p {
     margin-bottom: 10em;
   }
 
+  .thumb-img {
+    -webkit-transition: padding 0.3s ease-out;
+    transition: padding 0.3s ease-out;
+  }
+
+  .thumb-img:hover {
+    opacity: 0.75;
+    padding: .35em;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    -webkit-timing-function: ease;
+    transition-timing-function: ease;
+  }
+
   .companies {
     margin-top: 4em;
     padding-top: 1.5em;

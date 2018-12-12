@@ -107,6 +107,11 @@ h1, h2, h3, h4, .karla {
   font-family: Karla, sans-serif;
 }
 
+.view-live {
+  text-decoration: none;
+  color: #2f243a;
+}
+
 h1 {
   line-height: 2rem!important;
   padding-bottom: .25em;
@@ -351,7 +356,8 @@ footer p {
 
 @media only screen and (min-width: 25em) {
 
-  nav li:hover {
+  nav li:hover,
+  .view-live:hover {
     border-bottom: 4px solid #9f9aa4;
     padding-bottom: .25em;
     transition-timing-function: ease;

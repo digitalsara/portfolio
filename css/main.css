@@ -139,6 +139,7 @@ nav {
 
 .nav li {
   display: inline;
+  font-size: 120%;
 }
 
 nav ul {
@@ -360,6 +361,10 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
+
+  nav li {
+    font-size: 1.125rem;
+  }
 
   #proficiencies {
     margin: 5em 0;

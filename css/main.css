@@ -83,24 +83,8 @@ a:focus {
   margin-bottom: 4em;
 }
 
-.nav-btn-bg {
-  background-color: #e5e5e5;
-}
-
-.nav-btn-wrapper {
-  margin: 0 auto;
-}
-
-.nav-btn {
-  padding: 2em;
-  font-family: karla, sans-sans-serif;
-}
-
-.nav-btn a,
-.next-prev-disabled {
-  color: #3d3d3d;
-  text-decoration: none;
-  margin-right: 2em;
+.btn-next a {
+  margin-right: 0;
 }
 
 h1, h2, h3, h4, .karla {
@@ -194,6 +178,13 @@ hr {
 footer {
   background-color: #3d3d3d;
   color: #fff;
+
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 50px;
 }
 
 .footer-socials img {
@@ -272,11 +263,6 @@ footer {
   background: #fac9b8;
 }
 
-.next-prev-disabled {
-  color: #9f9aa4;
-  cursor: not-allowed;
-}
-
 .footer-email {
   border-top: 1px solid #fff;
   padding-top: 0.75em;
@@ -329,8 +315,12 @@ footer p {
 .max-90 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 90em;
+  max-width: 60em;
   width: 100%;
+}
+
+.mobile-pad-top {
+  padding-top: 1em;
 }
 
 @keyframes wave {
@@ -384,6 +374,10 @@ footer p {
     padding-bottom: .25em;
     transition-timing-function: ease;
     transition: 0.2s;
+  }
+
+  .mobile-pad-top {
+    padding-top: 0;
   }
 
 }

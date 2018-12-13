@@ -19,15 +19,17 @@ layout: default
     <ul class="list-group-inline nav-btn push-0 mega">
 
       {% if page.previous %}
-      <li><a aria-label="View previous portfolio piece" href="{{site.baseurl}}/{{page.previous}}">Previous</a></li>
+      <li class="btn-prev"><a aria-label="View previous portfolio piece" href="{{site.baseurl}}/{{page.previous}}"><img class="img-flex nav-btns" src="{{site.baseurl}}/images/icon-prev.svg" alt="Previous"></a></li>
       {% else %}
-      <li class="next-prev-disabled">Previous</li>
+      <li class="next-prev-disabled"><img class="img-flex nav-btns" src="{{site.baseurl}}/images/icon-prev-disabled.svg" alt="Previous"></li>
       {% endif %}
 
+      <li class="btn-home-icon"><a aria-label="Return to home page" href="{{site.baseurl}}/"><img class="img-flex nav-btns" src="{{site.baseurl}}/images/icon-home.svg" alt="Home" aria-label="Return home"></a></li>
+
       {% if page.next %}
-        <li><a aria-label="View next portfolio piece" href="{{site.baseurl}}/{{page.next}}">Next</a></li>
+        <li class="btn-next"><a aria-label="View next portfolio piece" href="{{site.baseurl}}/{{page.next}}"><img class="img-flex nav-btns" src="{{site.baseurl}}/images/icon-next.svg" alt="Next" aria-label="View next portfolio piece"></a></li>
       {% else %}
-        <li class="next-prev-disabled">Next</li>
+        <li class="next-prev-disabled"><img class="img-flex nav-btns" src="{{site.baseurl}}/images/icon-next-disabled.svg" alt="Next"></li>
       {% endif %}
 
     </ul>

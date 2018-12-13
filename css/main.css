@@ -121,18 +121,24 @@ nav {
   margin-top: 1em;
 }
 
-.nav {
-  margin: 1.5em 0;
-  text-align: center;
-}
-
-.nav li {
-  display: inline;
-  font-size: 120%;
-}
-
 nav ul {
   padding: 0;
+}
+
+nav ul li {
+  width: 50%;
+  text-align: right;
+  float: right;
+}
+
+.email-icon {
+  padding: 2em;
+  width: 100px;
+  display: inline;
+}
+
+.push-0-mobile {
+  margin-bottom: 0;
 }
 
 .nav a {
@@ -368,7 +374,10 @@ footer p {
 
 @media only screen and (min-width: 25em) {
 
-  nav li:hover,
+  .push-0-mobile {
+    margin-bottom: .75rem;
+  }
+
   .view-live:hover {
     border-bottom: 4px solid #9f9aa4;
     padding-bottom: .25em;
@@ -384,8 +393,21 @@ footer p {
 
 @media only screen and (min-width: 38em) {
 
-  nav li {
-    font-size: 1.125rem;
+  .email-icon {
+    padding: 2em;
+    width: 130px;
+    display: inline;
+
+    transition-timing-function: ease;
+    transition: 0.2s;
+  }
+
+  .email-icon:hover {
+    padding: 2.12em;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+    -webkit-timing-function: padding ease;
+    transition-timing-function: padding ease;
   }
 
   #proficiencies {

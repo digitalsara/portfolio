@@ -450,7 +450,7 @@ footer p {
 
   .email-icon:hover {
     cursor: pointer;
-    padding: 2.12em;
+    padding: 1.5em;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
     -webkit-timing-function: padding ease;

@@ -118,10 +118,6 @@ body {
   padding-left: .25em;
 }
 
-nav {
-  margin-top: 1em;
-}
-
 nav ul {
   padding: 0;
 }
@@ -136,6 +132,10 @@ nav ul li {
   padding: 2em;
   width: 100px;
   display: inline;
+  float: right;
+
+  transition-timing-function: ease;
+  transition: 0.2s;
 }
 
 .push-0-mobile {
@@ -441,12 +441,11 @@ footer p {
   }
 
   .email-icon {
-    padding: 2em;
-    width: 130px;
-    display: inline;
+    padding: 1.25em;
+  }
 
-    transition-timing-function: ease;
-    transition: 0.2s;
+  .nav {
+    padding: 1em 0;
   }
 
   .email-icon:hover {
@@ -475,16 +474,9 @@ footer p {
     line-height: 3.2rem!important;
   }
 
-  nav {
-    text-align: right;
-  }
-
   .wordmark {
     margin-left: 6px;
-  }
-
-  .nav {
-    text-align: left;
+    margin-top: .5em;
   }
 
   .header {

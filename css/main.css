@@ -304,6 +304,28 @@ footer p {
   animation-iteration-count: infinite;
 }
 
+
+.luxe-before {
+  background-color: #000;
+  padding: 2em;
+}
+
+.luxe-before img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 140px;
+  max-width: 350px;
+}
+
+.luxe-after img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  max-width: 380px;
+}
+
 .max-90 {
   margin-left: auto;
   margin-right: auto;

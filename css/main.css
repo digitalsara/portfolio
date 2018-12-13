@@ -192,15 +192,6 @@ nav ul li {
 
 .nav-btn-bg {
   background-color: #e5e5e5;
-
-  position: fixed;
-  top: 100vh;
-  transform: translateY(-100%);
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  width: 100%;
 }
 
 .companies {
@@ -437,6 +428,17 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
+
+  .nav-btn-bg {
+    position: fixed;
+    top: 100vh;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    width: 100%;
+  }
 
   .email-icon {
     padding: 2em;

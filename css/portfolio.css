@@ -47,7 +47,6 @@
   background-color: #fbae1;
 }
 
-#homegrown img,
 .box-shadow {
   box-shadow: 0 0 8px #c6c6c6;
   -webkit-box-shadow: 0 0 8px #c6c6c6;
@@ -89,6 +88,10 @@
 }
 
 @media only screen and (min-width: 38em) {
+
+  .gutter-38em {
+    padding: 0 1.5em;
+  }
 
   .hero-homegrown-wrap {
     height: 30em;

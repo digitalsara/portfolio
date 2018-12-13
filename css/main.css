@@ -196,6 +196,10 @@ nav ul li {
   position: fixed;
   top: 100vh;
   transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
   width: 100%;
 }
 

@@ -114,7 +114,8 @@ body {
 }
 
 .wordmark {
-  width: 100px;
+  width: 90px;
+  padding-left: .25em;
 }
 
 nav {
@@ -374,6 +375,10 @@ footer p {
 
 @media only screen and (min-width: 25em) {
 
+  .wordmark {
+    width: 100px;
+  }
+
   .push-0-mobile {
     margin-bottom: .75rem;
   }
@@ -403,6 +408,7 @@ footer p {
   }
 
   .email-icon:hover {
+    cursor: pointer;
     padding: 2.12em;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;

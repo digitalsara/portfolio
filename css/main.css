@@ -163,6 +163,42 @@ nav ul li {
   margin: 0 1.5em;
 }
 
+.nav-btn-wrapper {
+  margin: 0 auto;
+}
+
+.nav-btn {
+  padding: 1em 2em;
+  font-family: karla, sans-sans-serif;
+}
+
+.nav-btn li {
+  margin: 0 1em;
+}
+
+.btn-prev,
+.btn-next,
+.next-prev-disabled {
+  width: 1em;
+}
+
+.next-prev-disabled {
+  cursor: not-allowed;
+}
+
+.btn-home-icon {
+  width: 2em;
+}
+
+.nav-btn-bg {
+  background-color: #e5e5e5;
+
+  position: fixed;
+  top: 100vh;
+  transform: translateY(-100%);
+  width: 100%;
+}
+
 .companies {
   background-color: #e5e5e5;
 }

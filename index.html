@@ -5,38 +5,21 @@ description: Graphic designer in Ottawa who specializes in branding and user int
 ---
 
   <body>
-    <div class="grid header-wrapper text-center">
-      <div class="unit xs-1 header">
-        <h1 class="tenamega push-0">Hello, I'm Sara <span class="gutter-1-4 ec ec-wave"></span></h1>
-        <h2 class="peta not-bold push-2">My passion is problem-solving. Making things pretty comes close second.</h2>
-        <a class="btn-banner karla bold" target="_blank" href="https://drive.google.com/open?id=11vo4ubtRRMSRtRuQUMdKTFnY_HGjb67V">View my résumé</a>
-        <a class="btn-banner karla bold" target="_blank" href="https://drive.google.com/file/d/1lTEmTlxXgaSgDRf4gZX2Bdp9IybZj-rL/view?usp=sharing">View my PDF portfolio</a>
+
+    <div class="grid grid-middle header-container max-90 push-2 pad-top">
+      <div class="unit m-1-2 header-img">
+        <img class="img-flex" draggable="false" src="{{site.baseurl}}/images/sara-headshot-graphical.jpg" alt="Headshot by Frank Mittins @fm.photography_design">
+      </div>
+      <div class="unit m-1-2 header-text gutter">
+        <h1 class="zetta push-0">Hello, bonjour!</h1>
+        <p class="push-0 text-grey">My passion is problem-solving.</p>
+        <p class="text-grey">Making things pretty comes close second.</p>
+        <a class="btn-email milli push-2" href="mailto:info@sarahabel.art">Need a graphic designer?</a>
+        <p class="exa text-grey pad-t-2 push-0"><span class="giga">#</span>Branding <span class="giga">#</span>UI <span class="giga">#</span>UX</p>
       </div>
     </div>
 
-    <section id="proficiencies">
-      <h3 class="giga text-center">My proficiencies</h3>
-      <div class="grid proficiencies-wrapper">
-        <div class="unit proficiencies-container">
-          <img class="img-flex" src="{{site.baseurl}}/images/icon-indesign.svg" alt="90% proficiency in indesign">
-        </div>
-        <div class="unit proficiencies-container">
-          <img class="img-flex" src="{{site.baseurl}}/images/icon-illustrator.svg" alt="90% proficiency in illustrator">
-        </div>
-        <div class="unit proficiencies-container">
-          <img class="img-flex" src="{{site.baseurl}}/images/icon-photoshop.svg" alt="80% proficiency in photoshop">
-        </div>
-        <div class="unit proficiencies-container">
-          <img class="img-flex" src="{{site.baseurl}}/images/icon-premiere.svg" alt="70% proficiency in premiere">
-        </div>
-        <div class="unit proficiencies-container">
-          <img class="img-flex" src="{{site.baseurl}}/images/icon-aftereffects.svg" alt="60% proficiency in after effects">
-        </div>
-      </div>
-      <h4 class="kilo italic text-center pad-top not-bold">+ the Microsoft Suite</h4>
-    </section>
-
-    <section id="portfolio" class="gutter thumbnails push-2 max-90">
+    <section id="portfolio" class="gutter thumbnails push-2 pad-t-2 max-90">
       <h2 class="yotta push-0">Portfolio</h2>
       <h3 class="peta not-bold push">User Interface & Experience</h3>
       <div class="grid">
@@ -55,11 +38,16 @@ description: Graphic designer in Ottawa who specializes in branding and user int
       </div>
       <h3 class="peta not-bold pad-top push-1-2 push-0-mobile">Branding</h3>
       <div class="grid">
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
           <h5 class="karla mega item-titles">LUXE Spa</h5>
           <a class="thumb-container" aria-label="View the branding for luxe spa" href="{{site.baseurl}}/brand-luxe"><img class="thumb-img" src="{{site.baseurl}}/images/gallery-luxe-thumb.jpg" alt=""></a>
         </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3" id="no-animation">
+          <h5 class="karla mega item-titles mobile-pad-top">Batter Up Bakery <span class="italic text-grey milli">— Coming soon!</span></h5>
+          <img class="thumb-img disabled" src="{{site.baseurl}}/images/gallery-batterupbakery-thumb.jpg" alt="">
+          <!-- ADD ABOVE IMG TAG IN THIS ANCHOR <a class="thumb-container disabled" aria-label="View the branding for batter up bakery" href="{{site.baseurl}}/brand-batter-up-bakery"></a> -->
+        </div>
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
           <h5 class="karla mega item-titles mobile-pad-top">Election Campaign</h5>
           <a class="thumb-container" aria-label="View the branding for the ottawa election campaign 2018" href="{{site.baseurl}}/brand-election"><img class="thumb-img" src="{{site.baseurl}}/images/gallery-emiliecoyle-thumb.jpg" alt=""></a>
         </div>
@@ -69,7 +57,7 @@ description: Graphic designer in Ottawa who specializes in branding and user int
       <div class="grid">
         <div class="unit gutter max-length push-2">
           <h2 class="yotta push-1-2">What's my driving force?</h2>
-          <p class="giga">My passion is to communicate ideas that inspire, inform, and captivate people—always with a positive attitude.</p>
+          <p class="giga text-grey">My passion is to communicate ideas that inspire, inform, and captivate people—always with a positive attitude.</p>
         </div>
       </div>
     </section>
@@ -78,10 +66,10 @@ description: Graphic designer in Ottawa who specializes in branding and user int
         <div class="unit gutter max-length push-2">
           <h2 class="yotta push-1-2">Testimonials</h2>
           <p class="mega push-1-2">Sara demonstrated a great deal of professionalism and intergrated herself perfectly to the team. She was always on time and came well prepared.</p>
-          <p class="italic">—Johanne Bégin</p>
+          <p class="italic text-grey">—Johanne Bégin</p>
           <hr class="separator">
           <p class="mega push-1-2">I would describe Sara as happy, kind, gentle, positive and definitely creative. Committed and dedicated would be two words to describe Sara as she proved this to us in her follow through of going beyond expectations and policies. Sara is eager to perform well and I believe will give her best at whatever she finds herself doing.</p>
-          <p class="italic">—Karyn Conway</p>
+          <p class="italic text-grey">—Karyn Conway</p>
         </div>
       </div>
     </section>

@@ -21,6 +21,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-luxe.jpg");
 }
 
+.hero-bub-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-bub.jpg");
+}
+
 .hero-election-wrap {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-election.jpg");
 }

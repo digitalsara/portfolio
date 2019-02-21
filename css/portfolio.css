@@ -29,6 +29,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-election.jpg");
 }
 
+.hero-cbs-wrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/hero-cbs.jpg");
+}
+
 .hero-homegrown {
   color: #fff;
   padding: 5.5em 0;
